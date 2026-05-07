@@ -26,8 +26,8 @@ export default function Home() {
 
     try {
       const res = await axios.get(
-        `http://localhost:5000/chat?message=${userMsg}`
-      );
+  `https://hospital-ai-system-vh79.onrender.com/chat?message=${userMsg}`
+);
 
       // update last message with bot reply
       setChat((prev) => {
