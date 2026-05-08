@@ -342,12 +342,15 @@ const styles: any = {
   },
 
   input: {
-    flex: 1,
-    padding: "14px",
-    borderRadius: "10px",
-    border: "1px solid #ccc",
-    fontSize: "16px",
-  },
+  flex: 1,
+  padding: "14px",
+  borderRadius: "10px",
+  border: "1px solid #ccc",
+  fontSize: "16px",
+  color: "#000000", // 👈 force black text
+  backgroundColor: "#ffffff", // 👈 force white background
+  outline: "none",
+},
 
   button: {
     backgroundColor: "#0f766e",
